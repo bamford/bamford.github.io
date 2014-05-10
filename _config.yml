@@ -4,6 +4,8 @@ email: steven@stevenbamford.com
 description: "Just playing at the moment."
 baseurl: ""
 url: "http://bamford.github.io"
+username: bamford
+twitter: thebamf
 
 # Build settings
 markdown: kramdown
