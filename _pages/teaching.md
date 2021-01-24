@@ -1,6 +1,7 @@
 ---
 title: Teaching
 permalink: /teaching/
+toc: true
 ---
 
 Here is a record of the teaching and project supervision I've done, as much for myself as anyone else!
