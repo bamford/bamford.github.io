@@ -9,7 +9,7 @@ Here is a record of the teaching and project supervision I've done, as much for 
 
 ### Lecture courses
 
-#### Scientific Programming with Python
+##### Scientific Programming with Python
 
 I have taught variations of this course for most of the past ten years, originally for PhD students in the School of Physics at Nottingham, then as part of the [Midlands Physics Alliance](https://warwick.ac.uk/fac/sci/physics/mpags) (and hence to PhD students at Nottingham, Birmingham, Warwick, and occasionally Leicester, Loughborough and Keele). It has also been attended by undergrad project students, postdocs and occasionally professors!
 
@@ -40,13 +40,11 @@ I supervise various projects, often using the School's <a href="https://www.nott
 I also manage the maintenance and development of this facility, and coordinate the training of general users.
 
 **2020/21:**
-
 * Galaxy morphology versus environment --- Patrycja Siwek &amp; Zoe Thompson
 * The effect of pair interactions on galaxy morphology --- Subin Saji &amp; Andrew Longden
 * Understanding the wavelength-dependence of galaxy structure --- Zayed Alkatheeri &amp; Alexander Berman
 
 **2019/20:**
-
 * Eclipsing binary stars --- Conor Lyon &amp; Eve Gardiner
 * Distances to stellar clusters --- Beza Taye &amp; Elizabeth Havercroft
 * Observing minor planets --- Rahul Makwana &amp; Benjamin Wegh
