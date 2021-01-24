@@ -60,17 +60,14 @@ plugins:
 author:
   name   : "Steven Bamford"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Astrophysics, machine learning and citizen science"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://stevenbamford.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/thebamf"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bamford"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/thebamf"
 
 footer:
   links:
