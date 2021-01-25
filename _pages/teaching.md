@@ -86,16 +86,16 @@ Gathering photons from stars to determine how distant they are --- James Cottell
 
 ### Fourth year projects
 
-**2020/21:**  
-Redshifting galaxies with neural networks --- Larissa Palethorpe, Elizabeth Havercroft & Aiden Rolfe
+**2020/21:**
+: Redshifting galaxies with neural networks --- Larissa Palethorpe, Elizabeth Havercroft & Aiden Rolfe
 
 **2019/20:**  
-Physically realistic neural networks and machine learning --- Aaron Lamb & Jake Shaw
+: Physically realistic neural networks and machine learning --- Aaron Lamb & Jake Shaw
 
 **2018/19:**  
-Physically realistic neural networks and machine learning ---
+: Physically realistic neural networks and machine learning ---
 Alexander Coles & Leam Howe  
-Performance of advanced object detection
+: Performance of advanced object detection
 algorithms on astronomical images --- Dominic Askew & Jack Rowbotham
 
 **2017/18:**  
