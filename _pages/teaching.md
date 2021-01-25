@@ -23,17 +23,17 @@ engagement and assessement.
 
 ### Lecture courses
 
-**Quantitative Physics**  
-First-year core module, lecturer 2015/16 -- present, convenor 2016/17 -- present.
+Quantitative Physics
+: First-year core module, lecturer 2015/16 -- present, convenor 2016/17 -- present
 
-**Research Techniques in Astronomy**  
-Fourth-year module, lecturer 2013/14 -- 2018/19.
+Research Techniques in Astronomy
+: Fourth-year module, lecturer 2013/14 -- 2018/19
 
-**Structure of Galaxies**  
-Second-year module, lecturer 2012/13.
+Structure of Galaxies
+: Second-year module, lecturer 2012/13
 
-**Extreme Astrophysics**  
-Third-year module, shadow 2012/13 -- present.
+Extreme Astrophysics
+: Third-year module, shadow 2012/13 -- present
 
 ### Third year projects
 
@@ -95,8 +95,7 @@ Alkatheeri & Alexander Berman
 2018/19
 : *Physically realistic neural networks and machine learning* ---
 Alexander Coles & Leam Howe
-: Performance of advanced object detection
-algorithms on astronomical images --- Dominic Askew & Jack Rowbotham
+: *Performance of advanced object detection algorithms on astronomical images* --- Dominic Askew & Jack Rowbotham
 
 2017/18
 : *Hierarchical Bayesian modelling of galaxy scaling relations* --- Callum Martin-Moore & Ryan Chatha
