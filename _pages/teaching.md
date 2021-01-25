@@ -40,79 +40,79 @@ Third-year module, shadow 2012/13 -- present.
 I supervise various projects, often using the School's <a href="https://www.nottingham.ac.uk/astronomy/observatory.php">observatory</a>.
 I also manage the maintenance and development of this facility, and coordinate the training of general users.
 
-**2020/21:**  
-Galaxy morphology versus environment --- Patrycja Siwek & Zoe
-Thompson  
-The effect of pair interactions on galaxy morphology --- Subin Saji
-& Andrew Longden  
-Understanding the wavelength-dependence of galaxy structure --- Zayed
+2020/21
+: *Galaxy morphology versus environment* --- Patrycja Siwek & Zoe
+Thompson
+: *The effect of pair interactions on galaxy morphology* --- Subin Saji
+& Andrew Longden
+: *Understanding the wavelength-dependence of galaxy structure* --- Zayed
 Alkatheeri & Alexander Berman
 
-**2019/20:**  
-Eclipsing binary stars --- Conor Lyon & Eve Gardiner  
-Distances to stellar clusters --- Beza Taye & Elizabeth Havercroft  
-Observing minor planets --- Rahul Makwana & Benjamin Wegh
+2019/20
+: *Eclipsing binary stars* --- Conor Lyon & Eve Gardiner
+: *Distances to stellar clusters* --- Beza Taye & Elizabeth Havercroft
+: *Observing minor planets* --- Rahul Makwana & Benjamin Wegh
 
-**2018/19:**  
-Observing minor planets --- Sorcha Craven Heffernan & Samuel Smith  
-Distances to stellar clusters ---Daniel Sheasby
+2018/19
+: *Observing minor planets* --- Sorcha Craven Heffernan & Samuel Smith
+: *Distances to stellar clusters* ---Daniel Sheasby
 
-**2017/18:**  
-Eclipsing binary stars --- Harry Lyon & Joe McLoughlin  
-Distances to stellar clusters --- Matthew Canham & Dan Hamill
+2017/18
+: *Eclipsing binary stars* --- Harry Lyon & Joe McLoughlin
+: *Distances to stellar clusters* --- Matthew Canham & Dan Hamill
 
-**2016/17:**  
-Eclipsing binary stars --- Harry Foscoe & Thomas Hopkinson  
-Observing minor planets --- Joshua Crane & Romain Vandemeulebrouck
+2016/17
+: *Eclipsing binary stars* --- Harry Foscoe & Thomas Hopkinson
+: *Observing minor planets* --- Joshua Crane & Romain Vandemeulebrouck
 
-**2015/16:**  
-Eclipsing binary stars --- Amélie Tamone & Alfred Holton-Stoppani  
-Distances to stellar clusters --- Kieran Smith & Christopher Le Quesne
+2015/16
+: *Eclipsing binary stars* --- Amélie Tamone & Alfred Holton-Stoppani
+: *Distances to stellar clusters* --- Kieran Smith & Christopher Le Quesne
 
-**2014/15:**  
-Observing Minor Planets --- Emily Stapleton & Ashley Chrimes  
-Measuring distances to stellar clusters --- Harry Green & Jack Mosley
+2014/15
+: *Observing Minor Planets* --- Emily Stapleton & Ashley Chrimes
+: *Measuring distances to stellar clusters* --- Harry Green & Jack Mosley
 
-**2013/14:**  
-Observing Minor Planets --- Charutha Krishnan & Pierandrea Guarnieri  
-Measuring distances to stellar clusters --- Gareth Hardman & Chris Corbett
+2013/14
+: *Observing Minor Planets* --- Charutha Krishnan & Pierandrea Guarnieri
+: *Measuring distances to stellar clusters* --- Gareth Hardman & Chris Corbett
 
-**2012/13:**  
-Observing Exoplanet Transits --- Avais Kiani & Alim Mustafa  
-Observing Minor Planets ---  James Lavender & Ross Hart
+2012/13
+: *Observing Exoplanet Transits* --- Avais Kiani & Alim Mustafa
+: *Observing Minor Planets* --- James Lavender & Ross Hart
 
-**2011/12:**  
-Gathering photons from stars to determine how distant they are --- James Cottell & Joe Devine
+2011/12
+: *Gathering photons from stars to determine how distant they are* --- James Cottell & Joe Devine
 
 ### Fourth year projects
 
-**2020/21:**
-: Redshifting galaxies with neural networks --- Larissa Palethorpe, Elizabeth Havercroft & Aiden Rolfe
+2020/21
+: *Redshifting galaxies with neural networks* --- Larissa Palethorpe, Elizabeth Havercroft & Aiden Rolfe
 
 2019/20
-: Physically realistic neural networks and machine learning --- Aaron Lamb & Jake Shaw
+: *Physically realistic neural networks and machine learning* --- Aaron Lamb & Jake Shaw
 
-2018/19:
-: Physically realistic neural networks and machine learning ---
-Alexander Coles & Leam Howe  
+2018/19
+: *Physically realistic neural networks and machine learning* ---
+Alexander Coles & Leam Howe
 : Performance of advanced object detection
 algorithms on astronomical images --- Dominic Askew & Jack Rowbotham
 
-**2017/18:**  
-Hierarchical Bayesian modelling of galaxy scaling relations --- Callum Martin-Moore & Ryan Chatha
+2017/18
+: *Hierarchical Bayesian modelling of galaxy scaling relations* --- Callum Martin-Moore & Ryan Chatha
 
-**2016/17:**  
-Galaxy kinematics versus Galaxy Zoo morphology --- Luke Matthews & Luc Magwood  
-Spiral arms and the localisation of star-formation --- Joel Miller
+2016/17
+: *Galaxy kinematics versus Galaxy Zoo morphology* --- Luke Matthews & Luc Magwood
+: *Spiral arms and the localisation of star-formation* --- Joel Miller
 
-**2015/16:**  
-Spiral arms and the localisation of star-formation --- Nishith Chennakeshava & Harry Green
+2015/16
+: *Spiral arms and the localisation of star-formation* --- Nishith Chennakeshava & Harry Green
 
-**2014/15:**  
-The effect of dust on measurements of galaxy structure --- Michael Hillier, Myles Selvey & Luke Todhunter
+2014/15
+: *The effect of dust on measurements of galaxy structure* --- Michael Hillier, Myles Selvey & Luke Todhunter
 
-**2012/13:**  
-Disk galaxies versus environment --- Joshua Greenslade & Alastair Machin
+2012/13
+: *Disk galaxies versus environment* --- Joshua Greenslade & Alastair Machin
 
-**2010/11:**  
-Spiral galaxies versus environment --- Christopher Rosslowe & Robert Mackay
+2010/11
+: *Spiral galaxies versus environment* --- Christopher Rosslowe & Robert Mackay
