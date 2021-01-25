@@ -89,10 +89,10 @@ Gathering photons from stars to determine how distant they are --- James Cottell
 **2020/21:**
 : Redshifting galaxies with neural networks --- Larissa Palethorpe, Elizabeth Havercroft & Aiden Rolfe
 
-**2019/20:**  
+2019/20
 : Physically realistic neural networks and machine learning --- Aaron Lamb & Jake Shaw
 
-**2018/19:**  
+2018/19:
 : Physically realistic neural networks and machine learning ---
 Alexander Coles & Leam Howe  
 : Performance of advanced object detection
