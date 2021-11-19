@@ -9,6 +9,7 @@ I am interested in [recruiting a new PhD student](https://www.nottingham.ac.uk/a
 
 ### Current PhD students
 
+* Jordan de-Ville (Started 2021, working on measuring intracluster light with EUCLID, co-supervised with Nina Hatch and Alfonso Aragón-Salamanca)
 * Clár-Bríd (CB) Tohil (Started 2019, working on using deep learning to characterise the morphology of high-redshift galaxies, co-supervised with Chris Conselice)
 
 ### Previous PhD students
