@@ -1,4 +1,5 @@
 ---
+---
 
 @import "cv/base";
 @import "cv/print";
@@ -6,13 +7,13 @@
 @import "cv/mixins";
 @import "cv/skins/{{ site.cv_theme_skin}}";
 
-@import "includes/cv/header";
-@import "includes/cv/career-profile";
-@import "includes/cv/contact";
-@import "includes/cv/languages";
-@import "includes/cv/education";
-@import "includes/cv/skills";
-@import "includes/cv/experience";
-@import "includes/cv/publications";
-@import "includes/cv/projects";
-@import "includes/cv/volunteering";
+@import "cv/includes/header";
+@import "cv/includes/career-profile";
+@import "cv/includes/contact";
+@import "cv/includes/languages";
+@import "cv/includes/education";
+@import "cv/includes/skills";
+@import "cv/includes/experience";
+@import "cv/includes/publications";
+@import "cv/includes/projects";
+@import "cv/includes/volunteering";

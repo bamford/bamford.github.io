@@ -1,4 +1,6 @@
-layout: default
+---
+layout: cv
+permalink: /cv/
 ---
 <div class="container">
   {% include cv/header.html %}
