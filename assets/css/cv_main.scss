@@ -1,0 +1,19 @@
+---
+---
+
+@import "cv/base";
+@import "cv/print";
+@import "cv/responsive";
+@import "cv/mixins";
+@import "cv/skins/{{ site.cv_theme_skin}}";
+
+@import "cv/includes/header";
+@import "cv/includes/career-profile";
+@import "cv/includes/contact";
+@import "cv/includes/languages";
+@import "cv/includes/education";
+@import "cv/includes/skills";
+@import "cv/includes/experience";
+@import "cv/includes/publications";
+@import "cv/includes/projects";
+@import "cv/includes/volunteering";
