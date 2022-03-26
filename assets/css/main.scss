@@ -8,6 +8,10 @@
 @import "minimal-mistakes"; // main partials
 
 ul.social-icons {
+    #display: none;
+}
+
+h3.author__name {
     display: none;
 }
 

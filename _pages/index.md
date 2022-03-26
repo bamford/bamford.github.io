@@ -1,5 +1,6 @@
 ---
 permalink: /
+author_profile: true
 ---
 I'm an Associate Professor in the [School of Physics and Astronomy](http://www.nottingham.ac.uk/physics) at the [University of Nottingham](http://www.nottingham.ac.uk).
 
