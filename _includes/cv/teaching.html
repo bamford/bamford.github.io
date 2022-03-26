@@ -1,8 +1,8 @@
-{% assign projects = site.data.cv.projects %}
-{% if projects %}
+{% assign teaching = site.data.cv.teaching %}
+{% if teaching %}
 <section class="projects">
-    <h2 class="title">Projects</h2>
-    {% for p in projects %}
+    <h2 class="title">Teaching and Supervision</h2>
+    {% for p in teaching %}
         <div class="project">
 	  <span class="name">{{p.title}}</span>
 	  <span class="details">— {{p.details | markdownify}}</span>

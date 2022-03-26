@@ -6,5 +6,7 @@
     }
     .skill {
         @include body-text;
+	margin-right: 2em;
+	text-align: left;
     }
 }

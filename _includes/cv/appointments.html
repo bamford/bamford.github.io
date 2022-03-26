@@ -1,0 +1,22 @@
+{% assign appointments = site.data.cv.appointments %}
+{% if appointments %}
+<section class="appointments">
+    <h2 class="title">Appointments</h2>
+    {% for app in appointments %}
+        <div class="appointments-item">
+            <div class="role">
+	        {{app.role}}
+            </div>
+            <div class="company">
+                {{app.company}} 
+                <span class="time">{{app.time}}</span>
+            </div> 
+            <div class="details">{{app.details | markdownify}}</div>
+	    {% if app.projects %}
+            <p class="activities">Activities:
+	    {{app.activities}}</p>
+	    {% endif %}
+        </div>       
+    {% endfor %}
+</section>
+{% endif %}

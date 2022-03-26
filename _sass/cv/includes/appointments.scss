@@ -1,10 +1,11 @@
-.experience {
+.appointments {
     .title {
         @include header;
     }
-    .experience-item {
+    .appointments-item {
         .role {
             @include sub-header;
+	    margin-top:10px;
         }
         .company {
             @include body-text;
@@ -17,8 +18,17 @@
         }
         .details {
             @include body-text;
+	    line-height: 1.3;
+	    p {
+		display: inline;
+	    }
+	    em {
+		color: var(--fg-color-title-sm);
+		font-weight: bold;
+		font-style: normal;
+	    }
         }
-        .technologies {
+        .activities {
             @include body-text;
         }
     }

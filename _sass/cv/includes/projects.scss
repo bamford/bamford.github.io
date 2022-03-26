@@ -3,12 +3,40 @@
         @include header;
     }
     .project {
-        margin-bottom: 20px;
-        .project-link {
+        margin-bottom: 10px;
+	line-height: 1.3;
+        .name {
             @include body-text;
+	    color: var(--fg-color);
+	    font-weight: bold;
+	    a {
+		@include body-text;
+		color: var(--fg-color);
+		font-weight: bold;
+		text-decoration: none;
+		&:hover {
+                    text-decoration: underline;
+		}
+	    }
         }
         .details {
-            @include body-text;
+	    @include body-text;
+	    p {
+		@include body-text;
+		display: inline;
+	    }
+	    em {
+		color: var(--fg-color-title-sm);
+		font-weight: bold;
+		font-style: normal;
+	    }
+	    a {
+		color: var(--fg-color-title-sm);
+		text-decoration: none;
+		&:hover {
+                    text-decoration: underline;
+		}
+	    }
         }
     }
 }

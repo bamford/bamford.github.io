@@ -1,45 +1,59 @@
-name: John Doe
-support_dark_mode: true
-fork: true
+name: Steven Bamford
+support_dark_mode: false
+fork: false
 
 # Sidebar
+
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
+  email: steven@stevenbamford.com
+  website: stevenbamford.com
+  github: bamford
+  linkedin: steven-bamford
+  phone: 07812028021
   twitter: 
 
-languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
-
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: PhD Astronomy
+    time: 2002–2005
+    university: University of Nottingham
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: MSci Physics and Astronomy
+    class: First class
+    time: 1998–2002
+    university: Durham University
+
+  - degree: Postgraduate Certificate in Higher Education
+    time: 2016–2018
+    university: University of Nottingham
 
 skills:
-  - category: Backend
+  - category: Python
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
+      - NumPy
+      - SciPy
+      - Matplotlib
+      - Scikit-learn
+      - Pandas
+      - TensorFlow
+      - AstroPy
+      - ...
   - category: DevOps
     skill:
-      - Docker
-      - Kubernetes 
+      - Linux sysadmin
+      - Shell
+      - MacOS
+      - AWS (EC2, S3, ...)
+      - Git and GitHub
+  - category: Other technical
+    skill:
+      - C/C++
+      - HTML/CSS
+      - LaTeX
+      - JS/PHP/Ruby/...
+      - HPC
 
-# Profile
+# Main page
+
 profile: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -47,62 +61,131 @@ profile: |
   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
   fugiat nulla pariatur.
 
-# Experience
-experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+appointments:
+  - role: Associate Professor (Research & Teaching)
+    time: 2019–Present
+    company: University of Nottingham
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
+      Research on using _Deep Learning_ to characterise galaxy structure and measuring _Intracluster Light_. Continuing postgraduate and undergraduate teaching, supervision and operations roles. Co-lead of new _MSc Machine Learning in Science_ programme, including teaching course on _Big Data and Cloud Computing_.
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Lecturer (Research & Teaching)
+    time: 2015–2019 (proleptic from 2010)
+    company: University of Nottingham
+    details: |
+      Exploring interests in _Deep Learning_ and _Spiking Neural Networks_. Continuing research on _MegaMorph_, _GAMA_ and _Galaxy Zoo_. _Supervision of PhD students_. Teaching _Scientific Programming in Python_, _Quantitative Physics_, _Research Techniques in Astronomy_. Various operations roles, including _Lead of Year 1 Physics_ undergraduate programme, _Digital Learning Lead_ and _Staff Development Officer_.
+
+  - role: Senior Research Fellow
+    time: 2010–2015
+    company: University of Nottingham
+    details: |
+      Advanced Fellowship funded by Science and Technology Facilities Council. Primarily working on _MegaMorph_, _OSIRIS_, _GAMA_, _Galaxy Zoo_ and _Zooniverse_, while beginning to contribute to undergraduate and postgraduate teaching. Manager of _Undergraduate Observatory_.
+
+  - role: Postdoctoral Fellow
+    time: 2008–2010
+    company: University of Nottingham
+    details: |
+      Three-year contract to work on _PN.S_ project, alongside _GAMA_, _Galaxy Zoo_ and development of the _Zooniverse_.
+
+  - role: Senior Postdoctoral Associate
+    time: 2005–2008
+    company: Institute of Cosmology & Gravitation, University of Portsmouth
+    details: |
+      Working on various projects, including _H&alpha;-NMR_, _GAMA_ and _Galaxy Zoo_.
+
+research:
+
+  - title: Deep Learning
+    link: https://github.com/bamford/physcomp
+    details: |
+      This work focusses on developing a neural network architecture
+      and training approach for learning meaningful intrinsic
+      characteristics of multi-component systems in the scenario where
+      the available images suffer from a variety of observational
+      effects. The prototype for this is modelling galaxy structure
+      using data from astronomical surveys, but the concept is widely
+      applicable.
+
+  - title: Intracluster Light
+    link: https://github.com/IntraClusterLight
+    details: |
+      Novel approaches to challenging problem of detecting and
+      characterising the extremely diffuse starlight in galaxy
+      clusters, in preparation for the upcoming EUCLID mission.
+
+  - title: MegaMorph
+    link: https://www.nottingham.ac.uk/astronomy/megamorph/
+    details: |
+      PI of project to develop multi-wavelength galaxy decomposition techniques and software (C, IDL, Python). $1M funding from Qatar National Research Fund.
+
+
+  - title: MegaMorph
+    link: https://www.nottingham.ac.uk/astronomy/megamorph/
+    details: |
+      PI of project to develop multi-wavelength galaxy decomposition techniques and software (C, IDL, Python). $1M funding from Qatar National Research Fund.
+
+  - title: MegaMorph
+    link: https://www.nottingham.ac.uk/astronomy/megamorph/
+    details: |
+      PI of project to develop multi-wavelength galaxy decomposition techniques and software (C, IDL, Python). $1M funding from Qatar National Research Fund.
+
+  - title: OSIRIS
+    link: https://10.5281/zenodo.32170
+    details: |
+      Supervision of PhD student analysing complex 'tunable filter' and 'integral field spectroscopy' data to investigate galaxy evolution in clusters.
+
+  - title: PN.S
+    link: https://doi.org/10.1051/0004-6361/201220306
+    details: |
+      Improved techniques for analysing Planetary Nebulae Spectrograph data in order to map galaxy kinematics.
+      
+  - title: H&alpha;-NMR
+    link: https://doi.org/10.1111/j.1365-2966.2008.13963.x
+    details: |
+      Collaboration with statisticians at Carnegie Mellon University to apply newly developed 'Nonparametric Mixture Regression' method to examine components in the galaxy H&alpha; distribution.
+
+  - title: GAMA
+    link: http://www.gama-survey.org
+    details: |
+      Co-I of the Galaxy and Mass Assembly survey, a large international collaboration studying structure over a range of scales. Contributed to more than 30 journal papers.
+
+  - title: Galaxy Zoo
+    link: https://www.zooniverse.org/projects/zookeeper/galaxy-zoo/about/research
+    details: |
+      Key member of the team behind multiple stages of the Galaxy Zoo citizen science project. Responsible for processing and debiasing data into a science-ready form. Contributed to ~50 journal papers, including 5 by PhD students under my supervision.
+
+  - title: Zooniverse
+    link: https://www.zooniverse.org
+    details: |
+      Founding Science Director of the Zooniverse, a citizen science framework and community developed from the original Galaxy Zoo, which has enabled millions of people to contribute to research and helped hundreds of scientists get the data they need.
+
+  - title: Spiking Neural Networks
+    link: https://github.com/bamford/Brian2STDPMNIST
+    details : |
+      To gain a better understanding of learning in the brain, I worked on training a simple spiking neural network (SNN) via spike-timing dependent plasticity (STDP), using the Brian2 simulator. I started by reproducing the results of a paper that performed unsupervised learning to classify digits. With two pairs of undergraduate project students, we investigated the advantages of SNNs compared to a variety of conventional artificial neural networks. I then developed and implemented a form of supervised learning by association. I also had some success extending this approach to training to a multi-layer SNN with STDP.
+
+teaching:
+  - title: MSc Machine Learning in Science
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      tempor incididunt ut labore et dolore magna aliqua.
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  - title: Big Data and Cloud Computing  
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua.
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+_Supervision of PhD students_. Teaching _Scientific Programming in Python_, _Quantitative Physics_, _Research Techniques in Astronomy_, _Undergraduate Observatory_
 
-projects:
+operations:
+
+_Lead of Year 1 Physics_ undergraduate programme, _Digital Learning Lead_ and _Staff Development Officer_
+
   - title: Cool Project 
-    link: #
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua.
 
   - title: Cool Project 
-    link: #
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

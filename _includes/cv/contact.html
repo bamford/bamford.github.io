@@ -14,9 +14,16 @@
     {% if contact.phone %}
         <div class="contact-item">
             <i data-feather="phone"></i>
-            <a href="#">
-                {{contact.phone}}
-            </a>
+	    &nbsp;{{contact.phone}}
+        </div>
+    {% endif %}
+
+    {% if contact.website %}
+        <div class="contact-item">
+            <i data-feather="globe"></i>
+            <a href="https://{{contact.website}}">
+	        {{contact.website}}
+	    </a>
         </div>
     {% endif %}
 

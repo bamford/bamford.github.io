@@ -6,6 +6,7 @@
     .contact-item {
         display: flex;
         align-items: center;
+        @include body-text;
         svg {
             width: 18px;
             display: inline-block;

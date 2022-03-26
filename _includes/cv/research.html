@@ -1,0 +1,18 @@
+{% assign research = site.data.cv.research %}
+{% if research %}
+<section class="projects">
+    <h2 class="title">Research</h2>
+    {% for p in research %}
+        <div class="project">
+	  <span class="name">
+	  {% if p.link %}
+	    <a href="{{p.link}}">{{p.title}}</a>
+	  {% else %}
+	    {{p.title}}
+	  {% endif %}
+	  </span>
+	  <span class="details">— {{p.details | markdownify}}</span>
+        </div>
+    {% endfor %}
+</section>
+{% endif %}
