@@ -5,7 +5,7 @@ permalink: /supervision/
 
 This is a list of current and past PhD students I have supervised.
 
-I am interested in [recruiting a new PhD student](https://www.nottingham.ac.uk/astronomy/phd.php) to work on applying deep learning to galaxy evolution.
+I am interested in [recruiting a new PhD student](https://www.nottingham.ac.uk/astronomy/phd.php).
 
 ### Current PhD students
 
