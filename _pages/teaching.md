@@ -8,23 +8,29 @@ Here is a record of the teaching and project supervision I've done, as much for 
 
 ## Postgraduate
 
+### Programmes
+
+I co-founded the [MSc Machine Learning in Science](https://www.nottingham.ac.uk/pgstudy/course/taught/machine-learning-in-science-msc) programme at the University of Nottingham, and continue to assist with its administration.
+
 ### Lecture courses
 
 #### Scientific Programming with Python
 
-I have taught variations of this course for most of the past ten years, originally for PhD students in the School of Physics at Nottingham, then as part of the [Midlands Physics Alliance](https://warwick.ac.uk/fac/sci/physics/mpags) (and hence to PhD students at Nottingham, Birmingham, Warwick, and occasionally Leicester, Loughborough and Keele). It has also been attended by undergrad project students, postdocs and occasionally professors!
+I have taught variations of this course in most years from 2011/12 to 2022/23, originally for PhD students in the School of Physics at Nottingham, then as part of the [Midlands Physics Alliance](https://warwick.ac.uk/fac/sci/physics/mpags) (and hence to PhD students at Nottingham, Birmingham, Warwick, and occasionally Leicester, Loughborough and Keele). It has also been attended by undergrad project students, postdocs and occasionally professors!
 
-The module is now delivered jointly to Masters students on our [MSc Machine Learning in Science](https://www.nottingham.ac.uk/pgstudy/course/taught/machine-learning-in-science-msc) programme and PhD students via MPAGS. The latest course materials [can be found here](http://mpags-python.github.io).
+From 2019/20 to 2022/23 the module was also delivered to Masters students on our [MSc Machine Learning in Science](https://www.nottingham.ac.uk/pgstudy/course/taught/machine-learning-in-science-msc) programme and PhD students via [MPAGS](https://warwick.ac.uk/fac/sci/physics/mpags). The teaching materials, including slides and videos, are [available here](http://mpags-python.github.io/old). In 2023/24, I passed the course on to Dr Mike Smith, who has substantially redeveloped the teaching and assessent. The latest course materials [can be found here](http://mpags-python.github.io).
 
 ## Undergraduate
 
-I am co-leader of First Year (since 2018/19), with primary responsibilities for 
+I am Examinations Officer for the School of Physics and Astronomy (since 2022/23).
+
+I was co-leader of First Year from 2018/19 to 2022/23, with primary responsibilities for 
 engagement and assessement.
 
 ### Lecture courses
 
 Quantitative Physics
-: First-year core module, lecturer 2015/16 -- present, convenor 2016/17 -- present
+: First-year core module, lecturer 2015/16 -- 2022/23, convenor 2016/17 -- 2022/23
 
 Research Techniques in Astronomy
 : Fourth-year module, lecturer 2013/14 -- 2018/19
@@ -38,7 +44,12 @@ Extreme Astrophysics
 ### Third year projects
 
 I supervise various projects, often using the School's <a href="https://www.nottingham.ac.uk/astronomy/observatory.php">observatory</a>.
-I also manage the maintenance and development of this facility, and coordinate the training of general users.
+I also managed the maintenance and development of this facility, and coordinated the training of general users,
+from 2011 to 2020.
+
+2021/22
+: *Galaxy morphology versus environment* --- Lucy Clews & Thomas Braben
+: *The effect of pair interactions on galaxy morphology* --- Adam Lilley & Thomas Hadfield
 
 2020/21
 : *Galaxy morphology versus environment* --- Patrycja Siwek & Zoe
@@ -85,6 +96,12 @@ Alkatheeri & Alexander Berman
 : *Gathering photons from stars to determine how distant they are* --- James Cottell & Joe Devine
 
 ### Fourth year projects
+
+2022/23
+: *Advanced Modelling of Galaxy Structure* --- Aden Suter, George Hine & Shivani Patel
+
+2021/22
+: *Deblending galaxy images using neural networks* --- Max Neal, Tim Alefounder, Sebbie Sonola-Jones & Subin Saji
 
 2020/21
 : *Redshifting galaxies with neural networks* --- Larissa Palethorpe, Elizabeth Havercroft & Aiden Rolfe
