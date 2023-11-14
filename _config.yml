@@ -19,10 +19,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: thebamf
-github_username: bamford
 minimal_mistakes_skin: default
 search: true
+
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
@@ -61,24 +62,21 @@ plugins:
 author:
   name   : "Steven Bamford"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Astrophysics, machine learning and citizen science"
+#  bio    : "Astrophysics, machine learning and citizen science"
+  location: "Nottingham, UK"
   links:
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0001-7821-7195"
+    - label: "ADS"
+      icon: "fas fa-fw fa-file-alt"
+      url: "https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-7821-7195&sort=date+desc"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bamford"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/thebamf"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/thebamf"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/bamford"
-
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/steven-bamford/"
 defaults:
   # _posts
   - scope:
