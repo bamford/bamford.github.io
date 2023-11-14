@@ -67,7 +67,13 @@ author:
 #  twitter: "thebamf"
   github : "bamford"
   linkedin: "steven-bamford-9294088b"
-
+  links:
+    - label: "ORCID"
+      icon: "fa-orcid"
+      url: "https://orcid.org/0000-0001-7821-7195"
+    - label: "ADS"
+      icon: "fa-file-alt"
+      url: "https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-7821-7195&sort=date+desc"
 defaults:
   # _posts
   - scope:
