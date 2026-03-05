@@ -104,6 +104,9 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# Redirect target for /bellhouse2026/ – change this to switch between PDF and external page
+bellhouse2026_url: "/assets/files/Bellhouse+2026_submitted.pdf"
+
 # CV config:
 
 cv_theme_skin: blue
