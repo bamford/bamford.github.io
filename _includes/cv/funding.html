@@ -1,0 +1,16 @@
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign funding = cv.funding %}
+{% if funding %}
+<section class="projects funding{% include cv/print-page-break-class.html cv=cv slug="funding" %}">
+    <h2 class="title">Funding</h2>
+    {% for f in funding %}
+        <div class="project">
+	  <span class="name">{% if f.link %}<a href="{{ f.link }}">{{ f.title }}</a>{% else %}{{ f.title }}{% endif %}</span>
+	  <span class="details">— {% if f.grant_type %}{{ f.grant_type }}, {% endif %}{{ f.organisation }}, {{ f.time }}{% if f.grant_id %} ({{ f.grant_id }}){% endif %}{% if f.value %}, {{ f.value }}{% endif %}</span>
+	  {% if f.details %}
+	  <div class="funding-details">{{ f.details | markdownify }}</div>
+	  {% endif %}
+        </div>
+    {% endfor %}
+</section>
+{% endif %}

@@ -1,0 +1,31 @@
+.narrative {
+    margin-bottom: 1.25rem;
+
+    .title {
+        @include header;
+    }
+
+    .details {
+        @include body-text;
+
+        h2 {
+            @include sub-header;
+            margin-top: 1.1rem;
+            margin-bottom: 0.45rem;
+            text-transform: none;
+            font-weight: 700;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
+        p {
+            margin: 0 0 0.75em;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

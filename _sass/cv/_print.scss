@@ -1,20 +1,203 @@
+// Base type size for CV print output. Change here, or set `$cv-print-font-size`
+// before `@import "cv/print"` in `assets/css/cv_main.scss` to override.
+$cv-print-font-size: 10pt !default;
+
 @media print {
+    /*
+     * If the CV is viewed in dark mode, restore readable foreground colours on
+     * paper (backgrounds stay transparent below).
+     */
+    html[data-theme="dark"] {
+        --fg-color: #00629b;
+        --fg-color-dark: #023b5b;
+        --fg-color-body: #5e6369;
+        --fg-color-title-sm: #688293;
+    }
+
     @page {
         size: A4;
+        margin: 15mm 15mm;
     }
+
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    body {
+        background: transparent !important;
+        color: var(--fg-color-body);
+        line-height: 1.5;
+    }
+
     .container {
-        margin:0;
-        padding:0;
-        box-shadow: none;
-        background-color: #ffffff;
-        width: 1000px;
-        .container-block {
-            padding:0;
+        margin: 0 auto !important;
+        padding: 0 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        background-color: transparent !important;
+        width: 100% !important;
+        max-width: 1000px !important;
+        min-height: 0 !important;
+        font-size: $cv-print-font-size !important;
+
+        /* Reset screen px sizes from mixins; sizes use em from this base */
+        * {
+            font-size: inherit !important;
         }
+
+        .header .title {
+            font-size: 1.75em !important;
+        }
+
+        h2.title {
+            font-size: 1.286em !important;
+        }
+
+        section div.title,
+        .role {
+            font-size: 1.143em !important;
+        }
+
+        .education-item .degree,
+        .education-item .degree-class,
+        .education-item .university,
+        .education-item .time,
+        .employment-item .company,
+        .experience-item .company,
+        .employment-item .company .time,
+        .experience-item .company .time,
+        .volunteering-item .organization .time {
+            font-size: 15px !important;
+        }
+
+        .funding .funding-source {
+            font-size: 0.9em !important;
+        }
+
+        .container-block {
+            width: 95% !important;
+            margin: 0 auto !important;
+            padding: 15px 20px !important;
+            display: grid !important;
+            grid-template-columns: 2fr 5fr !important;
+            gap: 0 1.25rem !important;
+            align-items: start !important;
+        }
+
+        &.container--single-column .container-block {
+            display: block !important;
+            grid-template-columns: none !important;
+        }
+
+        /* Match .container-block width and horizontal padding so the name lines up with body text */
         .header {
-            input, label {
-                display: none;
+            width: 95% !important;
+            max-width: 100%;
+            margin: 0 auto !important;
+            padding-left: 0 !important;
+            padding-right: 20px !important;
+            box-sizing: border-box !important;
+
+            input,
+            label {
+                display: none !important;
             }
         }
+
+        > .contact--inline {
+            width: 95% !important;
+            margin: 0.5rem auto 0 !important;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            box-sizing: border-box !important;
+        }
+
+        > .contact--inline + .career-profile .title {
+            margin-top: 0.35rem !important;
+        }
+
+        > .career-profile {
+            width: 95% !important;
+            margin: 0 auto 1rem !important;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            box-sizing: border-box !important;
+        }
+
+        .narrative .details h2 {
+            font-size: 1.1em !important;
+            font-weight: 700 !important;
+        }
+
+        .sidebar {
+            text-align: left;
+        }
+    }
+
+    a {
+        color: var(--fg-color-title-sm);
+        text-decoration: none;
+    }
+
+    .container .details a,
+    .container .details a:link,
+    .container .details a:visited,
+    .container .publications .publications-summary a,
+    .container .publications .publications-summary a:link,
+    .container .publications .publications-summary a:visited,
+    .container .projects.funding .funding-details a,
+    .container .projects.funding .funding-details a:link,
+    .container .projects.funding .funding-details a:visited {
+        color: var(--fg-color);
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    a[href^="http"]::after {
+        content: none !important;
+    }
+
+    .container h2.title,
+    .container section .title {
+        break-after: avoid !important;
+        page-break-after: avoid !important;
+    }
+
+    .container h2.title + *,
+    .container section > .title + * {
+        break-before: avoid !important;
+        page-break-before: avoid !important;
+    }
+
+    .contact--inline .contact-row {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .experience-item,
+    .employment-item,
+    .volunteering-item,
+    .education-item,
+    .project {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .publication-item {
+        break-inside: auto;
+        page-break-inside: auto;
+    }
+
+    .details,
+    .publications-summary,
+    .publication-line {
+        widows: 3;
+        orphans: 3;
+    }
+
+    .print-page-break-before {
+        break-before: page;
+        page-break-before: always;
     }
 }

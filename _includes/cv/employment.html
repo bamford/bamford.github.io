@@ -1,0 +1,23 @@
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign employment = cv.employment %}
+{% if employment %}
+<section class="employment{% include cv/print-page-break-class.html cv=cv slug="employment" %}">
+    <h2 class="title">Employment</h2>
+    {% for job in employment %}
+        <div class="employment-item">
+            <div class="role">
+	        {{ job.role }}
+            </div>
+            <div class="company">
+                {{ job.company }} 
+                <span class="time">{{ job.time }}</span>
+            </div> 
+            <div class="details">{{ job.details | markdownify }}</div>
+	    {% if job.activities %}
+            <p class="activities">Activities:
+	    {{ job.activities }}</p>
+	    {% endif %}
+        </div>       
+    {% endfor %}
+</section>
+{% endif %}

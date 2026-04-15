@@ -1,17 +1,73 @@
 .education {
     margin-bottom: 20px;
-    .title {
+    > div.title {
         @include sub-header;
-	text-align: left;
+        text-align: left;
+        margin-bottom: 0.5rem;
     }
     .education-item {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         @include body-text;
         .degree {
             font-weight: bold;
 	    text-align: left;
+            font-size: 15px;
         }
         .degree-class {
+            font-size: 15px;
+        }
+
+        .university,
+        .time {
+            font-size: 15px;
+        }
+    }
+}
+
+/* Single-column CV: banded section title + one line per qualification */
+.container.container--single-column .education {
+    .title {
+        @include header;
+        text-align: initial;
+    }
+
+    .education-item {
+        margin-bottom: 12px;
+        @include body-text;
+        line-height: 1.4;
+
+        .degree {
+            @include sub-header;
+            font-weight: 700;
+            font-size: 15px;
+            display: inline;
+            text-align: left;
+        }
+
+        .degree-class {
+            @include body-text;
+            display: inline;
+            font-weight: normal;
+            font-size: 15px;
+        }
+
+        .education-sep {
+            font-weight: normal;
+        }
+
+        .university {
+            @include body-text;
+            display: inline;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .time {
+            @include body-text;
+            display: inline;
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
+            font-size: 15px;
         }
     }
 }

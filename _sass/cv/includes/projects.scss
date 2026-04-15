@@ -30,13 +30,38 @@
 		font-weight: bold;
 		font-style: normal;
 	    }
-	    a {
-		color: var(--fg-color-title-sm);
-		text-decoration: none;
-		&:hover {
-                    text-decoration: underline;
-		}
-	    }
+        }
+    }
+    &.funding .project .funding-details {
+        @include body-text;
+        display: block;
+        margin-top: 6px;
+        line-height: 1.4;
+        p {
+            @include body-text;
+            margin: 0 0 0.5em;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        em {
+            color: var(--fg-color-title-sm);
+            font-weight: bold;
+            font-style: normal;
+        }
+    }
+    &.funding .funding-source {
+        @include body-text;
+        font-size: 0.9em;
+        color: var(--fg-color-title-sm);
+        margin-top: 14px;
+        margin-bottom: 0;
+        a {
+            color: var(--fg-color-title-sm);
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

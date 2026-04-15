@@ -1,4 +1,5 @@
-{% assign fork = site.data.cv.fork %}
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign fork = cv.fork %}
 {% if fork %}
 <section class="fork">
     <div>

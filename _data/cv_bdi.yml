@@ -1,0 +1,158 @@
+# Variant: /cv_bdi/ — edit independently of _data/cv.yml
+name: Steven Bamford
+support_dark_mode: false
+fork: false
+single_column: true
+
+# Printed CV: start a new page before these sections (see _includes/cv/print-page-break-class.html).
+# Slugs: career-profile, experience, employment, narrative, research, teaching, operations, projects, funding, publications, volunteering.
+print_page_break_before:
+  - narrative
+  - funding
+
+contact:
+  email: steven@stevenbamford.com
+  website: stevenbamford.com
+  github: bamford
+  linkedin: steven-bamford
+  phone: 07812028021
+
+education:
+  - degree: PhD Astronomy
+    time: 2002–2005
+    university: University of Nottingham
+
+  - degree: MSci Physics and Astronomy
+    class: First class
+    time: 1998–2002
+    university: Durham University
+
+  - degree: Postgraduate Certificate in Higher Education
+    time: 2016–2018
+    university: University of Nottingham
+
+employment:
+  - role: Associate Professor (Research & Teaching)
+    time: 2019–Present
+    company: School of Physics and Astronomy, University of Nottingham
+    details: |
+      Research on the use of _Deep Learning_ to characterise galaxy structure. Co-leading team analysing _Intracluster Light_ with the Euclid observatory. Continuing postgraduate and undergraduate teaching, supervision and operations roles. _Exams Officer_ responsible for overseeing preparation of exam papers, marking, progression and awards. Co-creator of _MSc Machine Learning in Science_ programme.
+  
+  - role: Lecturer (Research & Teaching)
+    time: 2015–2019 (proleptic from 2010)
+    company: School of Physics and Astronomy, University of Nottingham
+    details: |
+      Continuing research on _MegaMorph_, _GAMA_ and _Galaxy Zoo_. Exploring interests in _Deep Learning_ and _Spiking Neural Networks_. _Supervision of PhD students_. Teaching _Scientific Programming in Python_, _Quantitative Physics_, _Research Techniques in Astronomy_. Various operations roles, including _Lead of Year 1 Physics_ undergraduate programme, _Digital Learning Lead_ and _Staff Development Officer_.
+
+  - role: Senior Research Fellow
+    time: 2010–2015
+    company: School of Physics and Astronomy, University of Nottingham
+    details: |
+      Advanced Fellowship funded by STFC. Primarily working on _MegaMorph_, _OSIRIS_, _GAMA_, _Galaxy Zoo_ and _Zooniverse_, while beginning to contribute to undergraduate and postgraduate teaching. Manager of _Undergraduate Observatory_.
+
+  - role: Postdoctoral Fellow
+    time: 2008–2010
+    company: School of Physics and Astronomy, University of Nottingham
+    details: |
+      Three-year contract to work on _PN.S_ project, alongside _GAMA_, _Galaxy Zoo_ and development of the _Zooniverse_.
+
+  - role: Senior Postdoctoral Associate
+    time: 2005–2008
+    company: Institute of Cosmology & Gravitation, University of Portsmouth
+    details: |
+      Working on various research projects, including _GAMA_ and _Galaxy Zoo_.
+
+funding:
+  - title: "Astronomy and Astrophysics at the University of Nottingham"
+    organisation: STFC
+    time: 2023–2026
+    link: "https://gtr.ukri.org/projects?ref=ST%2FX000982%2F1"
+    grant_type: "Consolidated Grant (Co-I)"
+    value: "£2M"
+  - title: Astrophysics at the University of Nottingham 2020-2023
+    organisation: STFC
+    time: 2020–2023
+    link: "https://gtr.ukri.org/projects?ref=ST%2FT000171%2F1"
+    grant_type: "Consolidated Grant (Co-I)"
+    value: "£1.5M"
+  - title: Automated Measurement of Galaxy Morphology
+    organisation: Qatar National Research Fund
+    time: 2010–2014
+    grant_type: "National Research Priorities Program (PI)"
+    value: "$1M"
+  - title: The evolution of galaxy components and the influence of environment
+    organisation: STFC
+    time: 2010–2015
+    grant_type: "Advanced Fellowship"
+    value: "£434k"
+
+narrative: |
+  ## Generation of new ideas, tools, methodologies or knowledge
+
+  My contributions span high-impact datasets and software, leadership of collaborations, and sustained public engagement. My work spans galaxy dynamics and structure, cluster formation and evolution, novel data analysis, and the integration of surveys with simulation data, communicated through refereed papers, conference talks, and public activities. My work as an early member of the Galaxy Zoo team was instrumental in showing that citizen science could produce valuable datasets and has since extended to demonstrating the power of AI in analysing galaxy surveys; the Galaxy Zoo team has published 86 refereed papers and the data has been used in hundreds more. I was on the leadership team for the GAMA Survey, one of the largest redshift surveys at the time, distinguished by consistently tracing structure from kpc to Mpc scales; GAMA data has been used in over 700 refereed publications (~40,000 citations). As PI of the MegaMorph project, I developed multi-wavelength galaxy modelling into a widely-used tool, now used by dozens of groups and contributing to over 60 publications. I co-lead a team processing Euclid data to measure ICL in 80,000 clusters – the primary data source for ICL studies for the next decade. These projects demonstrate my ability to develop sophisticated approaches to complex challenges, drawing on skills in data analysis, pipeline development, and linking simulations to observations.
+
+  ## Development of others and maintenance of effective working relationships
+
+  I have supervised a dozen PhD students and PDRAs, emphasising independence, skills, and professional networks. Former mentees have acheived senior roles as data scientists, research astronomers, and academics.  Alongside research leadership, I have contributed substantially to teaching administration at Nottingham as First-Year Lead, Digital Learning Lead, and Exams Officer, developing processes that improve efficiency and reliability for colleagues.
+
+  ## Wider research and innovation community
+
+   My service activites include the ING Panel for the Allocation of Telescope Time (open time for the UK community on the Isaac Newton Group of Telescopes) and founding Science Director of the Zooniverse, which has brought citizen science to a wide range of disciplines and enabled hundreds of research groups to work at scale; Zooniverse projects have led directly to over 600 publications. I co-lead the Machine Learning in Science MSc, training students to apply AI to scientific problems.
+
+  ## Broader research/innovation audiences and wider societal benefit
+
+  Our outreach spans large-scale public participation and targeted engagement with the media and policy. Galaxy Zoo and the Zooniverse have involved millions of the public in genuine research across astronomy and beyond, engaging everyone from school children to retirees and providing training data that has been vital to the development of AI in science. I has presented this work in public talks, online videos, a television documentary, and a planetarium show; my [Galaxy Writer](https://writing.galaxyzoo.org) site remains in regular use worldwide for education and entertainment. 
+
+publications:
+  - title: "Euclid: Early Release Observations – The intracluster light and intracluster globular clusters of the Perseus cluster"
+    link: "https://ui.adsabs.harvard.edu/abs/2025A%26A...697A..13K/abstract"
+    authors: "Kluge, M., ..., __Bamford, S. P.__, et al."
+    conference: "2025, Astronomy & Astrophysics, 697, A13"
+
+  - title: "A Robust Study of High-redshift Galaxies: Unsupervised Machine Learning for Characterizing Morphology with JWST up to z ∼ 8"
+    link: "https://ui.adsabs.harvard.edu/abs/2024ApJ...962..164T/abstract"
+    authors: "Tohill, C., __Bamford, S. P.__, et al."
+    conference: "2024, The Astrophysical Journal, 962, 164"
+
+  - title: "GALAPAGOS-2/GALFITM/GAMA – Multi-wavelength measurement of galaxy structure: Separating the properties of spheroid and disk components in modern surveys"
+    link: "https://ui.adsabs.harvard.edu/abs/2022A%26A...664A..92H/abstract"
+    authors: "Häußler, B., Vika, M., __Bamford, S. P.__, et al."
+    conference: "2022, Astronomy & Astrophysics, 664, A92"
+
+  - title: "Galaxy And Mass Assembly (GAMA): Data Release 4 and the z < 0.1 total and z < 0.08 morphological galaxy stellar mass functions"
+    link: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.513..439D/abstract"
+    authors: "Driver, S. P., ..., __Bamford, S. P.__, et al."
+    conference: "2022, Monthly Notices of the Royal Astronomical Society, 513, 439"
+
+  - title: "Galaxy Zoo DECaLS: Detailed visual morphology measurements from volunteers and deep learning for 314 000 galaxies"
+    link: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.3966W/abstract"
+    authors: "Walmsley, M., ..., __Bamford, S.__, et al."
+    conference: "2022, Monthly Notices of the Royal Astronomical Society, 509, 3966"
+
+  - title: "Quantifying Non-parametric Structure of High-redshift Galaxies with Deep Learning"
+    link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...916....4T/abstract"
+    authors: "Tohill, C., ..., __Bamford, S. P.__, et al."
+    conference: "2021, The Astrophysical Journal, 916, 4"
+
+  - title: "Galaxy Zoo: probabilistic morphology through Bayesian CNNs and active learning"
+    link: "https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.1554W/abstract"
+    authors: "Walmsley, M., ..., __Bamford, S.__, et al."
+    conference: "2020, Monthly Notices of the Royal Astronomical Society, 491, 1554"
+
+  - title: "Galaxy Zoo: comparing the demographics of spiral arm number and a new method for correcting redshift bias"
+    link: "https://ui.adsabs.harvard.edu/abs/2016MNRAS.461.3663H/abstract"
+    authors: "Hart, R. E., __Bamford, S. P.__, et al."
+    conference: "2016, Monthly Notices of the Royal Astronomical Society, 461, 3663"
+
+  - title: "MegaMorph – multiwavelength measurement of galaxy structure: complete Sérsic profile information from modern surveys"
+    link: "https://ui.adsabs.harvard.edu/abs/2013MNRAS.430..330H/abstract"
+    authors: "Häußler, B., __Bamford, S. P.__, et al."
+    conference: "2013, Monthly Notices of the Royal Astronomical Society, 430, 330"
+
+  - title: "Revealing components of the galaxy population through non-parametric techniques"
+    link: "https://ui.adsabs.harvard.edu/abs/2008MNRAS.391..607B/abstract"
+    authors: "__Bamford, S. P.__, et al."
+    conference: "2008, Monthly Notices of the Royal Astronomical Society, 391, 607"
+
+publications_summary: |
+  Over 150 refereed [publications](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-7821-7195&sort=date%20desc), with more than 25,000 citations and a h-index of 74. Below are some examples that demonstrate my experience of analysing large, complex datasets using conventional statistics and machine learning.

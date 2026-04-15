@@ -1,7 +1,8 @@
-{% assign ops = site.data.cv.operations %}
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign ops = cv.operations %}
 {% if ops %}
-<section class="projects">
-    <h2 class="title">Operations</h2>
+<section class="projects{% include cv/print-page-break-class.html cv=cv slug="operations" %}">
+    <h2 class="title">Administration and Operations</h2>
     {% for p in ops %}
         <div class="project">
 	  <span class="name">{{p.title}}</span>

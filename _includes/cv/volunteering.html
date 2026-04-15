@@ -1,6 +1,7 @@
-{% assign volunteering = site.data.cv.volunteering %}
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign volunteering = cv.volunteering %}
 {% if volunteering %}
-<section class="volunteering">
+<section class="volunteering{% include cv/print-page-break-class.html cv=cv slug="volunteering" %}">
     <h2 class="title">Volunteering</h2>
     {% for vol in volunteering %}
         <div class="volunteering-item">

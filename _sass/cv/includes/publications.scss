@@ -2,23 +2,57 @@
     .title {
         @include header;
     }
+    .publications-summary {
+        @include body-text;
+        margin-bottom: 18px;
+        line-height: 1.45;
+        p {
+            @include body-text;
+            margin-bottom: 0.6em;
+        }
+    }
     .publication-items {
         .publication-item {
-            margin-bottom: 20px;
-            .publication-title {
-                a {
-                    text-decoration: none;
-                    font-weight: bold;
-                    @include body-text; 
+            margin-bottom: 0.4rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .publication-line {
+                @include body-text;
+                margin: 0;
+                text-indent: 0;
+            }
+
+            .publication-title-link {
+                @include body-text;
+                color: var(--fg-color);
+                font-weight: bold;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
                 }
             }
-            .authors {
-                @include body-text; 
-            }
-            .conference {
-                @include body-text; 
+
+            .publication-sep {
                 color: var(--fg-color-title-sm);
-                font-weight: 100;
+                font-weight: 300;
+                white-space: nowrap;
+            }
+
+            .authors {
+                @include body-text;
+
+                p {
+                    display: inline;
+                    margin: 0;
+                }
+            }
+
+            .conference {
+                @include body-text;
             }
         }
     }

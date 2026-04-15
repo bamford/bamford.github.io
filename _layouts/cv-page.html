@@ -1,0 +1,6 @@
+---
+layout: cv
+---
+{% assign _cv_dataset = page.cv_dataset | default: "cv" %}
+{% assign cv = site.data[_cv_dataset] %}
+{% include cv/page.html cv=cv %}

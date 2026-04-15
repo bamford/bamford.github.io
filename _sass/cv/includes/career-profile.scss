@@ -1,3 +1,15 @@
+/* Full width below header, aligned with .container-block (not inside main column) */
+.container > .career-profile {
+    width: 90%;
+    margin: 0 auto 1.25rem;
+    box-sizing: border-box;
+}
+
+/* Tighter gap under single-line contact (header mixin adds margin-top: 20px by default) */
+.container.container--single-column > .contact--inline + .career-profile .title {
+    margin-top: 0.35rem;
+}
+
 .career-profile {
     .title {
         @include header;

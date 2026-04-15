@@ -1,0 +1,41 @@
+<div class="container{% if include.cv.single_column %} container--single-column{% endif %}">
+  {% include cv/header.html cv=include.cv %}
+  <div class="container-block">
+    {% unless include.cv.single_column %}
+    <div class="sidebar">
+      {% include cv/contact.html cv=include.cv %}
+      {% include cv/education.html cv=include.cv %}
+      {% include cv/skills.html cv=include.cv %}
+      {% include cv/languages.html cv=include.cv %}
+      {% include cv/fork.html cv=include.cv %}
+    </div>
+    {% endunless %}
+
+    <div class="main">
+      {% if include.cv.single_column %}
+      {% include cv/contact.html cv=include.cv layout="inline" %}
+      {% endif %}
+      {% include cv/career-profile.html cv=include.cv %}
+      {% if include.cv.single_column %}
+      {% include cv/education.html cv=include.cv layout="inline" %}
+      {% include cv/skills.html cv=include.cv %}
+      {% include cv/languages.html cv=include.cv %}
+      {% include cv/fork.html cv=include.cv %}
+      {% endif %}
+      {% include cv/experience.html cv=include.cv %}
+      {% include cv/employment.html cv=include.cv %}
+      {% include cv/narrative.html cv=include.cv %}
+      {% include cv/research.html cv=include.cv %}
+      {% include cv/teaching.html cv=include.cv %}
+      {% include cv/operations.html cv=include.cv %}
+      {% include cv/projects.html cv=include.cv %}
+      {% include cv/funding.html cv=include.cv %}
+      {% include cv/publications.html cv=include.cv %}
+      {% include cv/volunteering.html cv=include.cv %}
+      {% if include.cv.single_column %}
+      {% include cv/fork.html cv=include.cv %}
+      {% endif %}
+
+    </div>
+  </div>
+</div>

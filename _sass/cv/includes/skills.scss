@@ -10,3 +10,34 @@
 	text-align: left;
     }
 }
+
+/* Single-column CV: match Employment History section pattern */
+.container.container--single-column .skills {
+    h2.title {
+        @include header;
+        margin-top: 0;
+    }
+
+    .skills-item {
+        .role {
+            @include sub-header;
+            margin-top: 10px;
+        }
+
+        .details {
+            @include body-text;
+            line-height: 1.3;
+            text-align: left;
+
+            p {
+                display: inline;
+            }
+
+            em {
+                color: var(--fg-color-title-sm);
+                font-weight: bold;
+                font-style: normal;
+            }
+        }
+    }
+}

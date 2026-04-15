@@ -1,3 +1,5 @@
+{% assign _cv_dataset = page.cv_dataset | default: "cv" %}
+{% assign _cv = site.data[_cv_dataset] %}
 <head>
     <!-- Styles -->
     <link rel="stylesheet" href="{{'/assets/css/cv_main.css' | relative_url}}">
@@ -10,5 +12,5 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     
-    <title>{{site.title}}</title>
+    <title>{% if _cv.name %}{{ _cv.name }}{% else %}{{ site.title }}{% endif %} &mdash; CV</title>
 </head>

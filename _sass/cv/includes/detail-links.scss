@@ -1,0 +1,22 @@
+/* Links inside markdown/detail blocks — imported after section partials so these win. */
+.container {
+    .details a,
+    .details a:link,
+    .details a:visited,
+    .publications .publications-summary a,
+    .publications .publications-summary a:link,
+    .publications .publications-summary a:visited,
+    .projects.funding .funding-details a,
+    .projects.funding .funding-details a:link,
+    .projects.funding .funding-details a:visited {
+        color: var(--fg-color);
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .details a:hover,
+    .publications .publications-summary a:hover,
+    .projects.funding .funding-details a:hover {
+        text-decoration: underline;
+    }
+}

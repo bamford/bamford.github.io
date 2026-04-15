@@ -1,9 +1,20 @@
-{% assign skills = site.data.cv.skills %}
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign skills = cv.skills %}
 {% if skills %}
 <section class="skills">
+    {% if cv.single_column %}
+    <h2 class="title">Skills</h2>
+    {% for sks in skills %}
+        <div class="skills-item">
+            <div class="role">{{ sks.category }} skills</div>
+            <div class="details">{{ sks.skill | array_to_sentence_string: "" }}</div>
+        </div>
+    {% endfor %}
+    {% else %}
     {% for sks in skills %}
         <div class="title">{{sks.category}} skills</div>
 	 <div class="skill">{{ sks.skill | array_to_sentence_string: "" }}</div>
     {% endfor %}
+    {% endif %}
 </section>
 {% endif %}

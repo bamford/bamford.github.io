@@ -1,6 +1,7 @@
-{% assign experience = site.data.cv.experience %}
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign experience = cv.experience %}
 {% if experience %}
-<section class="experience">
+<section class="experience{% include cv/print-page-break-class.html cv=cv slug="experience" %}">
     <h2 class="title">Experience</h2>
     {% for exp in experience %}
         <div class="experience-item">

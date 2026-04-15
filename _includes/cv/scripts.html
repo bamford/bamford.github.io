@@ -1,5 +1,7 @@
+{% assign _cv_dataset = page.cv_dataset | default: "cv" %}
+{% assign _cv = site.data[_cv_dataset] %}
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-{% if site.data.cv.support_dark_mode%}
+{% if _cv.support_dark_mode %}
   <script src="{{'/assets/javascript/toggleDark.js' | relative_url}}"></script>
 {% endif %}
 <script>

@@ -1,17 +1,22 @@
-{% assign publications = site.data.cv.publications %}
-{% if publications %}
-<section class="publications">
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign publications = cv.publications %}
+{% assign publications_summary = cv.publications_summary %}
+{% if publications_summary or publications %}
+<section class="publications{% include cv/print-page-break-class.html cv=cv slug="publications" %}">
     <h2 class="title">Publications</h2>
+    {% if publications_summary %}
+    <div class="publications-summary">{{ publications_summary | markdownify }}</div>
+    {% endif %}
+    {% if publications %}
     <div class="publication-items">
-        {% for pub in publications%}
+        {% for pub in publications %}
             <div class="publication-item">
-                <div class="publication-title">
-                    <a href="{{pub.link}}">{{pub.title}}</a>
-                </div>
-                <div class="authors">{{pub.authors}}</div>
-                <div class="conference">{{pub.conference}}</div>   
+                <p class="publication-line">
+                    <a class="publication-title-link" href="{{ pub.link }}">{{ pub.title }}</a><span class="publication-sep" aria-hidden="true">, </span><span class="authors">{{ pub.authors | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip }}</span>, <span class="conference">{{ pub.conference }}</span>
+                </p>
             </div>
-        {%endfor%}
+        {% endfor %}
     </div>
+    {% endif %}
 </section>
 {% endif %}

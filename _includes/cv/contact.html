@@ -1,12 +1,63 @@
-{% assign contact = site.data.cv.contact %}
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign contact = cv.contact %}
 {% if contact %}
+{% if include.layout == "inline" %}
+<section class="contact contact--inline" aria-label="Contact">
+    <div class="contact-row">
+    {% if contact.email %}
+        <span class="contact-item">
+            <i data-feather="mail" aria-hidden="true"></i>
+            <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+        </span>
+    {% endif %}
+    {% if contact.phone %}
+        <span class="contact-item">
+            <i data-feather="phone" aria-hidden="true"></i>
+            <span class="contact-text">{{ contact.phone }}</span>
+        </span>
+    {% endif %}
+    </div>
+    <div class="contact-row">
+        {% if contact.website %}
+        <span class="contact-item">
+            <i data-feather="globe" aria-hidden="true"></i>
+            <a href="https://{{ contact.website }}">{{ contact.website }}</a>
+        </span>
+    {% endif %}
+    {% if contact.github %}
+        <span class="contact-item">
+            <i data-feather="github" aria-hidden="true"></i>
+            <a href="https://github.com/{{ contact.github }}">{{ contact.github }}</a>
+        </span>
+    {% endif %}
+    {% if contact.linkedin %}
+        <span class="contact-item">
+            <i data-feather="linkedin" aria-hidden="true"></i>
+            <a href="https://linkedin.com/in/{{ contact.linkedin }}">{{ contact.linkedin }}</a>
+        </span>
+    {% endif %}
+    {% if contact.twitter %}
+        <span class="contact-item">
+            <i data-feather="twitter" aria-hidden="true"></i>
+            <a href="https://twitter.com/{{ contact.twitter }}">{{ contact.twitter }}</a>
+        </span>
+    {% endif %}
+    {% if contact.gitlab %}
+        <span class="contact-item">
+            <i data-feather="gitlab" aria-hidden="true"></i>
+            <a href="https://gitlab.com/{{ contact.gitlab }}">{{ contact.gitlab }}</a>
+        </span>
+    {% endif %}
+    </div>
+</section>
+{% else %}
 <section class="contact">
     <div class="title">Contact</div>
     {% if contact.email %}
         <div class="contact-item">
             <i data-feather="mail"></i>
-            <a href="#">
-                {{contact.email}}
+            <a href="mailto:{{ contact.email }}">
+                {{ contact.email }}
             </a>
         </div>
     {% endif %}
@@ -14,15 +65,15 @@
     {% if contact.phone %}
         <div class="contact-item">
             <i data-feather="phone"></i>
-	    &nbsp;{{contact.phone}}
+	    &nbsp;{{ contact.phone }}
         </div>
     {% endif %}
 
     {% if contact.website %}
         <div class="contact-item">
             <i data-feather="globe"></i>
-            <a href="https://{{contact.website}}">
-	        {{contact.website}}
+            <a href="https://{{ contact.website }}">
+	        {{ contact.website }}
 	    </a>
         </div>
     {% endif %}
@@ -30,8 +81,8 @@
     {% if contact.github %}
         <div class="contact-item">
             <i data-feather="github"></i>
-            <a href="https://github.com/{{contact.github}}">
-                {{contact.github}}
+            <a href="https://github.com/{{ contact.github }}">
+                {{ contact.github }}
             </a>
         </div>
     {% endif %}
@@ -39,8 +90,8 @@
     {% if contact.linkedin %}
         <div class="contact-item">
             <i data-feather="linkedin"></i>
-            <a href="https://linkedin.com/in/{{contact.linkedin}}">
-                {{contact.linkedin}}
+            <a href="https://linkedin.com/in/{{ contact.linkedin }}">
+                {{ contact.linkedin }}
             </a>
         </div>
     {% endif %}
@@ -48,8 +99,8 @@
     {% if contact.twitter %}
         <div class="contact-item">
             <i data-feather="twitter"></i>
-            <a href="https://twitter.com/{{contact.twitter}}">
-                {{contact.twitter}}
+            <a href="https://twitter.com/{{ contact.twitter }}">
+                {{ contact.twitter }}
             </a>
         </div>
     {% endif %}
@@ -57,10 +108,11 @@
     {% if contact.gitlab %}
         <div class="contact-item">
             <i data-feather="gitlab"></i>
-            <a href="https://gitlab.com/{{contact.gitlab}}">
-                {{contact.gitlab}}
+            <a href="https://gitlab.com/{{ contact.gitlab }}">
+                {{ contact.gitlab }}
             </a>
         </div>
     {% endif %}
 </section>
+{% endif %}
 {% endif %}

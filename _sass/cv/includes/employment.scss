@@ -1,8 +1,8 @@
-.appointments {
+.employment {
     .title {
         @include header;
     }
-    .appointments-item {
+    .employment-item {
         .role {
             @include sub-header;
 	    margin-top:10px;
@@ -10,6 +10,7 @@
         .company {
             @include body-text;
             font-weight: bold;
+            font-size: 15px;
             .time {
                 float: right;
                 color: var(--fg-color-title-sm);

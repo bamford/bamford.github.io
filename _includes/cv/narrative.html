@@ -1,0 +1,8 @@
+{% assign cv = include.cv | default: site.data.cv %}
+{% assign narrative = cv.narrative %}
+{% if narrative %}
+<section class="narrative{% include cv/print-page-break-class.html cv=cv slug="narrative" %}">
+    <h2 class="title">Narrative</h2>
+    <div class="details">{{ narrative | markdownify }}</div>
+</section>
+{% endif %}
