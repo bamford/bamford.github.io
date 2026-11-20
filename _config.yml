@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Steven Bamford
 email: steven@stevenbamford.com
+url: "https://stevenbamford.com"
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -27,7 +28,8 @@ atom_feed:
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+# Pin for reproducible GitHub Pages builds (currently matches live site)
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -50,6 +52,7 @@ include:
 #   - vendor/ruby/
 
 # Plugins (previously gems:)
+# Only GitHub Pages–whitelisted plugins; jekyll-minifier is not supported there.
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -57,7 +60,6 @@ plugins:
 #  - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-minifier
 
 author:
   name   : "Steven Bamford"
@@ -69,7 +71,7 @@ author:
       icon: "fab fa-orcid"
       url: "https://orcid.org/0000-0001-7821-7195"
     - label: "ADS"
-      icon: "fas fa-fw fa-file-alt"
+      icon: "fas fa-fw fa-file-lines"
       url: "https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-7821-7195&sort=date+desc"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
