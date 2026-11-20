@@ -105,7 +105,7 @@ tag_archive:
   path: /tags/
 
 # Redirect target for /bellhouse2026/ – change this to switch between PDF and external page
-bellhouse2026_url: "/assets/files/Bellhouse+2026_submitted.pdf"
+bellhouse2026_url: "https://arxiv.org/abs/2610.28013"
 
 # CV config:
 
